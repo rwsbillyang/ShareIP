@@ -1,0 +1,7 @@
+
+dependencies {
+    //implementation("ch.qos.logback:logback-classic:1.4.1")
+    implementation 'org.smartboot.socket:aio-core:1.6.1'
+    implementation 'org.smartboot.socket:aio-pro:1.6.1'
+}
+

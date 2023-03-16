@@ -1,0 +1,24 @@
+
+dependencies {
+    testImplementation("io.ktor:ktor-server-tests:$ktor_version")
+    implementation("ch.qos.logback:logback-classic:$logback_version")
+    implementation("io.ktor:ktor-serialization:$ktor_version")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:$ktor_version")
+    implementation("io.ktor:ktor-server-netty:$ktor_version")
+
+    implementation "io.insert-koin:koin-core:$koin_version"
+    testImplementation "io.insert-koin:koin-test:$koin_version"
+    implementation "io.insert-koin:koin-ktor:$koin_version"
+    implementation "io.insert-koin:koin-logger-slf4j:$koin_version"
+    //implementation "io.insert-koin:koin-annotations:$koin_ksp_version"
+//     ksp "io.insert-koin:koin-ksp-compiler:$koin_ksp_version"
+
+    implementation ("com.github.jershell:kbson:$kbson_version")
+    implementation ("org.litote.kmongo:kmongo-coroutine-serialization:$kmongo_version")
+
+    implementation 'org.lionsoul:ip2region:2.6.5'
+
+    implementation("com.github.rwsbillyang:ktorKit:$ktorKitVersion")
+
+    implementation project(":proxycore")
+}

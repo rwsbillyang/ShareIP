@@ -1,0 +1,6 @@
+rootProject.name = "shareIP"
+
+include ":proxycore"
+project(':proxycore').projectDir = file("./proxycore")
+include ":proxyServer"
+project(':proxyServer').projectDir = file("./proxyServer")
